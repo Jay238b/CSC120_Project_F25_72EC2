@@ -1,4 +1,4 @@
-game_name = "Escaping" #TODO, name your game project
+game_name = "Escaping J" #TODO, name your game project
 print()
 print("======================")
 
