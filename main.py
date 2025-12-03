@@ -22,12 +22,13 @@ player = {
 
 def check_event():
     global player, events
-    event = random.choice(events)
     events = ["find a coin", "meet a monster", "do nothing"]
     if event == "find a coin":
         player['coin'] += 1
     elif event == "meet a monster":
-        player['health'] -= 10
+        player['health'] -= 10 
+    event = random.choice(events)
+    
 
 map_size = 9
 
